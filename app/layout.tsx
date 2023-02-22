@@ -8,7 +8,9 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <head />
+      <head>
+        <title>Jason Web</title>
+      </head>
       <body>
         <Header />
         {children}
